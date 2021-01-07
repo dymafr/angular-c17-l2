@@ -12,6 +12,6 @@ import { CocktailFormComponent } from "./cocktail-container/cocktail-form/cockta
     CocktailContainerComponent,
     CocktailFormComponent
   ],
-  imports: [CommonModule]
+  imports: [CommonModule, ReactiveFormsModule]
 })
 export class CocktailModule {}
