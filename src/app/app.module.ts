@@ -28,13 +28,9 @@ import { HttpClientModule } from "@angular/common/http";
   declarations: [
     AppComponent,
     HeaderComponent,
-    CocktailListComponent,
-    CocktailDetailsComponent,
-    CocktailContainerComponent,
     SelectedDirective,
     PanierContainerComponent,
     IngredientListComponent,
-    CocktailFormComponent,
     FilterPipe
   ],
   bootstrap: [AppComponent],
