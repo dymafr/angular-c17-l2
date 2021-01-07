@@ -6,7 +6,6 @@ import { CocktailContainerComponent } from "./cocktail-container/cocktail-contai
 import { CocktailFormComponent } from "./cocktail-container/cocktail-form/cocktail-form.component";
 import { ReactiveFormsModule, FormsModule } from "@angular/forms";
 import { RouterModule } from "@angular/router";
-import { APP_ROUTES } from "../../app.routes";
 import { FilterPipe } from "../../shared/pipes/filter.pipe";
 
 @NgModule({
