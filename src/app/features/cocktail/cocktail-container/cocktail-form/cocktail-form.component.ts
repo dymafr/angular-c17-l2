@@ -2,8 +2,8 @@ import { Component, OnInit } from "@angular/core";
 import { FormArray, FormBuilder, FormGroup, Validators } from "@angular/forms";
 import { ActivatedRoute, ParamMap, Router } from "@angular/router";
 import { first } from "rxjs/operators";
-import { Cocktail } from "../../shared/interfaces/cocktail.interface";
-import { CocktailService } from "../../shared/services/cocktail.service";
+import { Cocktail } from "../../../../shared/interfaces/cocktail.interface";
+import { CocktailService } from "../../../../shared/services/cocktail.service";
 
 @Component({
   selector: "app-cocktail-form",

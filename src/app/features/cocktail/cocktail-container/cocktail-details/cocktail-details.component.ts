@@ -1,9 +1,9 @@
 import { Component, OnInit } from "@angular/core";
 import { ActivatedRoute, ParamMap } from "@angular/router";
 import { Subscription } from "rxjs";
-import { Cocktail } from "../../shared/interfaces/cocktail.interface";
-import { CocktailService } from "../../shared/services/cocktail.service";
-import { PanierService } from "../../shared/services/panier.service";
+import { Cocktail } from "../../../../shared/interfaces/cocktail.interface";
+import { CocktailService } from "../../../../shared/services/cocktail.service";
+import { PanierService } from "../../../../shared/services/panier.service";
 
 @Component({
   selector: "app-cocktail-details",

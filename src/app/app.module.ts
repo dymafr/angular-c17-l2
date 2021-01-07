@@ -8,9 +8,17 @@ import { APP_ROUTES } from "./app.routes";
 import { PanierService } from "./shared/services/panier.service";
 import { FilterPipe } from "./shared/pipes/filter.pipe";
 import { HttpClientModule } from "@angular/common/http";
+import { CocktailModule } from "./features/cocktail/cocktail.module";
+import { PanierModule } from "./features/panier/panier.module";
 
 @NgModule({
-  imports: [BrowserModule, RouterModule.forRoot(APP_ROUTES), HttpClientModule],
+  imports: [
+    BrowserModule,
+    RouterModule.forRoot(APP_ROUTES),
+    HttpClientModule,
+    CocktailModule,
+    PanierModule
+  ],
   declarations: [AppComponent, HeaderComponent, SelectedDirective, FilterPipe],
   bootstrap: [AppComponent],
   providers: [PanierService]

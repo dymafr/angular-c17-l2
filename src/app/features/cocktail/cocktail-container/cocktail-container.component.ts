@@ -1,7 +1,7 @@
 import { Component } from "@angular/core";
 import { Observable } from "rxjs";
-import { Cocktail } from "../shared/interfaces/cocktail.interface";
-import { CocktailService } from "../shared/services/cocktail.service";
+import { CocktailService } from "../../../shared/services/cocktail.service";
+import { Cocktail } from "../../shared/interfaces/cocktail.interface";
 
 @Component({
   selector: "app-cocktail-container",
