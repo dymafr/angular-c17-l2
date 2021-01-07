@@ -5,6 +5,8 @@ import { CocktailDetailsComponent } from "./cocktail-container/cocktail-details/
 import { CocktailContainerComponent } from "./cocktail-container/cocktail-container.component";
 import { CocktailFormComponent } from "./cocktail-container/cocktail-form/cocktail-form.component";
 import { ReactiveFormsModule, FormsModule } from "@angular/forms";
+import { RouterModule } from "@angular/router";
+import { APP_ROUTES } from "../../app.routes";
 
 @NgModule({
   declarations: [
@@ -13,6 +15,6 @@ import { ReactiveFormsModule, FormsModule } from "@angular/forms";
     CocktailContainerComponent,
     CocktailFormComponent
   ],
-  imports: [CommonModule, ReactiveFormsModule, FormsModule]
+  imports: [CommonModule, ReactiveFormsModule, FormsModule, RouterModule]
 })
 export class CocktailModule {}
