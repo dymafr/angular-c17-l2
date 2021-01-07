@@ -6,7 +6,6 @@ import { SelectedDirective } from "./shared/directives/selected.directive";
 import { RouterModule } from "@angular/router";
 import { APP_ROUTES } from "./app.routes";
 import { PanierService } from "./shared/services/panier.service";
-import { FilterPipe } from "./shared/pipes/filter.pipe";
 import { HttpClientModule } from "@angular/common/http";
 import { CocktailModule } from "./features/cocktail/cocktail.module";
 import { PanierModule } from "./features/panier/panier.module";
@@ -19,7 +18,7 @@ import { PanierModule } from "./features/panier/panier.module";
     CocktailModule,
     PanierModule
   ],
-  declarations: [AppComponent, HeaderComponent, SelectedDirective, FilterPipe],
+  declarations: [AppComponent, HeaderComponent, SelectedDirective],
   bootstrap: [AppComponent],
   providers: [PanierService]
 })
